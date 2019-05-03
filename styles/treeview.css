@@ -1,0 +1,5 @@
+#treeview {
+  width: 200px;
+  height: calc(100% - 100px);
+  background-color: rgb(35, 35, 35);
+}

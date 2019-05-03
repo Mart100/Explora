@@ -1,0 +1,67 @@
+#main {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: calc(100% - 200px);
+  height: calc(100% - 100px);
+  background-color: rgb(50, 50, 50);
+}
+
+#backbtn {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color: rgb(30, 30, 30);
+  cursor: pointer;
+  transition-duration: .4s;
+}
+#backbtn:hover {
+  background-color: rgb(40, 40, 40);
+}
+#backbtn img {
+  width: 40px;
+  height: 40px;
+}
+
+#content {
+  padding: 10px;
+  overflow: auto;
+  position: absolute;
+  width: calc(100% - 20px);
+  height: calc(100% - 70px);
+  top: 50px;
+}
+
+#currentDir {
+  position: absolute;
+  height: 20px;
+  padding: 15px;
+  font-size: 20px;
+  width: calc(100% - 50px);
+  background-color: rgb(35, 35, 35);
+  color: white;
+
+}
+
+#content div {
+  width: 60%;
+  height: 15px;
+  font-size: 15px;
+  padding: 5px;
+  color: white;
+  transition-duration: .2s;
+}
+
+#content div.selected {
+  background-color: rgb(41, 41, 41);
+}
+#content div:hover {
+  background-color: rgb(35, 35, 35);
+}
+
+#content div span {
+  pointer-events: none;
+}
